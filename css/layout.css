@@ -74,6 +74,16 @@
     height: 24px;
 }
 
+.header__contenido{
+    order: 1;
+    font-size: 1.75rem;
+    z-index: 100;                             
+    flex-wrap: wrap;                          
+    align-items: center;                       
+    justify-content: space-between; 
+}
+
+
 /* ===== FOCO PARA TECLADO ===== */
 .header a:focus-visible {
     outline: 3px solid var(--color-verde-secundario);   
@@ -179,6 +189,22 @@
     font-size: 0.875rem;
     text-align: center;
 }
+
+.footer__2{
+    padding: var(--espacio-l) var(--espacio-m);
+    background-color: var(--color-verde-principal);   
+    color: var(--color-texto);
+
+}
+
+.footer__link{
+    order: 1;                                  
+    font-size: 1.75rem;
+    font-weight: 700;   
+}
+
+
+
 
 
 
@@ -574,4 +600,8 @@
     .contacto {
         padding: var(--espacio-l);
     }
+}
+
+.estadistica__grid{
+
 }
